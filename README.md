@@ -22,15 +22,15 @@ The core `Contractual` library promises never to take dependencies on other NuGe
 ## Index of Tools
 
   * WCF
-    * **Proxy<T>**: This is a wrapper around the WCF ClientBase<T>.
-      * Gaurantees proper disposal of ClientBase<T>, which circumvents the long-standing Indigo Disposable bug.
+    * **Proxy[T]**: This is a wrapper around the WCF ClientBase&lt;T&gt;.
+      * Gaurantees proper disposal of ClientBase&lt;T&gt;, which circumvents the long-standing Indigo Disposable bug.
       * Allows hyper-simple testing, merely by implementing (stubbing / mocking) a ServiceContract interface.
-      * Supports ClientBase<T> asynchronous invocations, which are based on IO completion ports,while still ensuring that each ClientBase<T> is properly disposed.
+      * Supports ClientBase&lt;T&gt; asynchronous invocations, which are based on IO completion ports,while still ensuring that each ClientBase&lt;T&gt; is properly disposed.
   * ASP.NET Web API
     * **MetaClient**: This is a subclass of ASP.NET Web API `HttpClient`.
       * Uses generic methods to add meta-data capabilities such as: type-safe return values and encapsulated resource paths.
       * Provides a custom configuration section which holds endpoint addresses, TLS certificate info, serialization parameters and more.
   * System.Configuration
-    * Collection ElementList<T>: Generic support for creating custom configuration section collections.
+    * CollectionElementList&lt;T&gt;: Generic support for creating custom configuration section collections.
 
 ...this document is incomplete.  Stay tuned.
