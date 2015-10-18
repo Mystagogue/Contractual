@@ -40,14 +40,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ICommand.cs" />
-    <Compile Include="IQuery.cs" />
-    <Compile Include="IQueryProcessor.cs" />
-    <Compile Include="IQuerySpec.cs" />
-    <Compile Include="Paged.cs" />
-    <Compile Include="PagingInformation.cs" />
+    <Compile Include="Exchange\ICommand.cs" />
+    <Compile Include="Exchange\Identifier\ICommandSpec.cs" />
+    <Compile Include="Exchange\IQuery.cs" />
+    <Compile Include="Exchange\IQueryProcessor.cs" />
+    <Compile Include="Exchange\IQuerySpec.cs" />
+    <Compile Include="Exchange\Paged.cs" />
+    <Compile Include="Exchange\PagingInformation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sortation.cs" />
+    <Compile Include="Exchange\Sortation.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Configuration\" />
+    <Folder Include="MetaClient\" />
+    <Folder Include="WCF\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

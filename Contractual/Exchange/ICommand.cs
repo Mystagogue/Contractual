@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Contractual
+namespace Contractual.Exchange
 {
     public interface ICommand<TCommand>
     {
-        void Handle(TCommand command);
+        Task Handle(TCommand command);
     }
 }

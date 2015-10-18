@@ -4,10 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Contractual
+namespace Contractual.Exchange
 {
+    /// <summary>
+    /// A factory for query handlers.
+    /// </summary>
     public interface IQueryProcessor
     {
-        TResult Execute<TResult>(IQuerySpec<TResult> query);
+        Task<TResult> Execute<TResult>(IQuerySpec<TResult> query);
     }
 }

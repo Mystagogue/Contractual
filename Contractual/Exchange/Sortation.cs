@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Contractual
+namespace Contractual.Exchange
 {
     public enum SortDirection
     {

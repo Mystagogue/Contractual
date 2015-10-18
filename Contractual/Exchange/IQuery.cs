@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Contractual
+namespace Contractual.Exchange
 {
     public interface IQuery<TQuery, TResult> where TQuery : IQuerySpec<TResult>
     {
-        TResult Handle(TQuery query);
+        Task<TResult> Handle(TQuery query);
     }
 }

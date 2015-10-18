@@ -4,9 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Contractual
+namespace Contractual.Exchange
 {
     public interface IQuerySpec { }
 
     public interface IQuerySpec<TResult> : IQuerySpec { }
+
+    public interface IPagedQuerySpec<TResult> : IQuerySpec<Paged<TResult>>
+    {
+        PagingInformation Paging { get; set; }
+    }
 }
