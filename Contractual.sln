@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contractual", "Contractual\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contractual_Tests", "Contractual_Tests\Contractual_Tests.csproj", "{BA7E1851-9980-406D-81F1-46480FE7A8C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contractual.MetaClient", "Contractual.MetaClient\Contractual.MetaClient.csproj", "{9709C3C6-AE97-4B4D-A6C9-D1A69FFCEDEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BA7E1851-9980-406D-81F1-46480FE7A8C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA7E1851-9980-406D-81F1-46480FE7A8C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA7E1851-9980-406D-81F1-46480FE7A8C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9709C3C6-AE97-4B4D-A6C9-D1A69FFCEDEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9709C3C6-AE97-4B4D-A6C9-D1A69FFCEDEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9709C3C6-AE97-4B4D-A6C9-D1A69FFCEDEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9709C3C6-AE97-4B4D-A6C9-D1A69FFCEDEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

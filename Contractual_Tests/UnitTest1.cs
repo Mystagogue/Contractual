@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq.Expressions;
 using System.Linq;
 using System.Collections.Generic;
-using Contractual;
+using Contractual.Exchange;
 
 namespace Contractual_Tests
 {
